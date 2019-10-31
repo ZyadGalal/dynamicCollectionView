@@ -31,8 +31,8 @@ extension CustomViewController : UICollectionViewDataSource , UICollectionViewDe
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCollectionViewCell
 
             cell.config(customer: "zyad Galal \(indexPath.row)")
+        cell.tableView.tag = indexPath.row
             cell.tableView.reloadData()
-            cell.tableView.tag = indexPath.row
             print(indexPath.row)
     
         return cell
@@ -47,7 +47,7 @@ extension CustomViewController : CustomLayoutDelegate{
     func collectionView(_ collectionView: UICollectionView, heightForLabelAtIndexPath indexPath: IndexPath) -> CGFloat {
         var height : CGFloat = 0.0
         for string in Data[indexPath.row]{
-            height = height + string.height(withConstrainedWidth: collectionView.frame.width/3 - 16, font: .systemFont(ofSize: 17.0)) + 25
+            height = height + string.height(withConstrainedWidth: collectionView.frame.width/3 - 16, font: .systemFont(ofSize: 17.0)) + 30
             }
             
         return height + 50
