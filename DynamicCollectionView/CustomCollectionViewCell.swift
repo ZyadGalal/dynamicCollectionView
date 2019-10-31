@@ -20,10 +20,6 @@ class CustomCollectionViewCell: UICollectionViewCell {
         containerView.layer.borderWidth = 0.5
         self.layer.borderWidth = 0.5
         self.layer.borderColor = UIColor.red.cgColor
+        tableView.reloadData()
     }
-//    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
-//        orderLabel.preferredMaxLayoutWidth = layoutAttributes.size.width - contentView.layoutMargins.left - contentView.layoutMargins.left
-//        layoutAttributes.bounds.size.height = systemLayoutSizeFitting(UIView.layoutFittingCompressedSize).height
-//        return layoutAttributes
-//    }
 }

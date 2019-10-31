@@ -15,6 +15,7 @@
 		22693C7223697CE300B580A3 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22693C7123697CE300B580A3 /* CustomViewController.swift */; };
 		22693C7423697D6B00B580A3 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22693C7323697D6B00B580A3 /* CustomCollectionViewCell.swift */; };
 		22693C7623697F5D00B580A3 /* restLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22693C7523697F5D00B580A3 /* restLayout.swift */; };
+		22FA7B4C236AC93F002279D7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA7B4B236AC93F002279D7 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		22693C7123697CE300B580A3 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		22693C7323697D6B00B580A3 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		22693C7523697F5D00B580A3 /* restLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restLayout.swift; sourceTree = "<group>"; };
+		22FA7B4B236AC93F002279D7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				22693C7123697CE300B580A3 /* CustomViewController.swift */,
 				22693C7323697D6B00B580A3 /* CustomCollectionViewCell.swift */,
 				22693C7523697F5D00B580A3 /* restLayout.swift */,
+				22FA7B4B236AC93F002279D7 /* String+Extension.swift */,
 			);
 			path = DynamicCollectionView;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				22693C5A236970D600B580A3 /* AppDelegate.swift in Sources */,
 				22693C5C236970D600B580A3 /* SceneDelegate.swift in Sources */,
 				22693C7223697CE300B580A3 /* CustomViewController.swift in Sources */,
+				22FA7B4C236AC93F002279D7 /* String+Extension.swift in Sources */,
 				22693C7623697F5D00B580A3 /* restLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
